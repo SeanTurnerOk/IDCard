@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    background-color:gray;
+    padding: 2px;
+}
+.topBar{
+    background-color:cyan;
+    height:150px;
+}
+.bottomBar{
+    background-color:white;
+    padding-top:53px;
+}
+.topBar>img{
+    height:100px;
+    position:absolute;
+    top:97px;
+    border: 3px solid white;
+    border-radius:50%
+}
+.location{
+    display:flex;
+}
+.location>img{
+    height:1.5em;
+}
+.profileEdit{
+    display: flex;
+}
+.profileEdit>img{
+    height:1em;
+}
